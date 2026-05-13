@@ -1,0 +1,12 @@
+{
+    "name":  "lambda-compra",
+    "version":  "1.0.0",
+    "description":  "Microservicio de Compras",
+    "main":  "index.js",
+    "dependencies":  {
+                         "@aws-sdk/client-dynamodb":  "^3.0.0",
+                         "@aws-sdk/lib-dynamodb":  "^3.0.0",
+                         "uuid":  "^9.0.0",
+                         "@sentry/aws-serverless":  "^8.0.0"
+                     }
+}
